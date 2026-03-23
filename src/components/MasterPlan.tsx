@@ -16,10 +16,10 @@ export default function MasterPlan() {
   return (
     <SectionWrapper id="masterplan" background="gray">
       <div className="text-center mb-12">
-        <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+        <h2 className="font-crimson text-5xl md:text-6xl font-bold text-primary mb-6">
           Mặt bằng tổng thể
         </h2>
-        <p className="font-inter text-lg text-neutral-gray-800 max-w-2xl mx-auto">
+        <p className="font-exo text-lg text-neutral-gray-600 max-w-2xl mx-auto">
           Thiết kế tổng thể hài hòa, tối ưu không gian sống và tiện ích
         </p>
       </div>
@@ -36,7 +36,7 @@ export default function MasterPlan() {
           </div>
         </div>
         
-        <p className="font-inter text-center text-neutral-gray-800 mt-6 italic">
+        <p className="font-exo text-center text-neutral-gray-600 mt-6 italic">
           Di chuột vào hình để phóng to chi tiết
         </p>
       </AnimatedSection>

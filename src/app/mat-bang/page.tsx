@@ -6,7 +6,7 @@ export default function MatBangPage() {
   return (
     <>
       <Navigation />
-      <div className="min-h-screen pt-20">
+      <div className="min-h-screen pt-32 pb-16">
         <MasterPlan />
       </div>
       <Footer />

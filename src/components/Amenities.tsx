@@ -22,10 +22,10 @@ export default function Amenities() {
   return (
     <SectionWrapper id="amenities" background="white">
       <div className="text-center mb-12">
-        <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+        <h2 className="font-crimson text-5xl md:text-6xl font-bold text-primary mb-6">
           Tiện ích đẳng cấp
         </h2>
-        <p className="font-inter text-lg text-neutral-gray-800 max-w-2xl mx-auto">
+        <p className="font-exo text-lg text-neutral-gray-600 max-w-2xl mx-auto">
           Hệ thống tiện ích hoàn hảo phục vụ mọi nhu cầu của cư dân
         </p>
       </div>

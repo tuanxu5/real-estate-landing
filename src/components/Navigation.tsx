@@ -47,7 +47,7 @@ export default function Navigation() {
       <div className={`border-b border-neutral-gray-100 transition-all duration-300 ${
         scrolled ? 'h-0 opacity-0 overflow-hidden' : 'h-auto opacity-100'
       }`}>
-        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-end items-center gap-6 py-2 text-sm">
             <a href="tel:+84123456789" className="flex items-center gap-2 text-neutral-gray-600 hover:text-accent-gold transition-colors">
               <Phone className="w-4 h-4" />
@@ -62,7 +62,7 @@ export default function Navigation() {
       </div>
 
       {/* Main Navigation */}
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="font-crimson text-2xl font-bold text-primary hover:text-accent-gold transition-colors">

@@ -6,9 +6,7 @@ export default function LienHePage() {
   return (
     <>
       <Navigation />
-      <div className="min-h-screen pt-20">
-        <ContactForm />
-      </div>
+      <ContactForm />
       <Footer />
     </>
   );

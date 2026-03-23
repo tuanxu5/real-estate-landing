@@ -6,7 +6,7 @@ export default function ViTriPage() {
   return (
     <>
       <Navigation />
-      <div className="min-h-screen pt-20">
+      <div className="min-h-screen pt-32">
         <Location />
       </div>
       <Footer />

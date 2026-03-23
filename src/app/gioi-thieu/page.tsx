@@ -6,9 +6,7 @@ export default function GioiThieuPage() {
   return (
     <>
       <Navigation />
-      <div className="min-h-screen pt-20">
-        <Introduction />
-      </div>
+      <Introduction />
       <Footer />
     </>
   );
